@@ -1,0 +1,271 @@
+/* Здесь будут храниться стили нашего сайта */
+body {
+	margin: 0;
+	font-family: 'Roboto';
+	font-size: 18px;
+}
+img {
+	max-width: 100%;
+}
+header {
+	background-image: linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
+}
+header {
+	padding-top: 59px;
+	padding-bottom: 22px;
+	color: #ffffff;
+}
+
+.header-pretitle{
+	font-weight: 700;
+	margin-top: 102px;
+}
+.header-title {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 38.81px;
+	margin-top: 21px;
+}
+.header-subtitle {
+	font-weight: 400;
+	margin-top: 20px;
+}
+.header-button-block a { 
+	display: inline-block;
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 50px;
+	background-color: #ffffff;
+	border: 0px;
+	color: #072b6f;	
+	font-weight: 700;
+	font-size: 18px;
+	padding: 17px 55px;
+	margin-top: 33px;
+	text-decoration: none;
+}
+.header-button-block a:hover {
+	box-shadow: none;
+	transition: 0.2s;
+}
+header small{
+	font-weight: 400;
+	font-size: 12px;
+	margin-top: 9px;
+	display:block;
+	text-align: center;
+}
+.header-button-block{
+	max-width: 200px; 
+}
+
+/*Cекция портфолио*/
+.portfolio {
+	background-color: #dddddd;
+}
+.portfolio-block {
+	background-color: #ffffff;
+	padding-top: 29px;
+	padding-bottom: 44px;
+}
+section {
+	padding-top: 44px;
+	padding-bottom: 71px;
+}
+.portfolio-title, .portfolio-subtitle {
+	text-align: center;
+}
+.portfolio-title {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	margin-bottom: 10px;
+}
+.portfolio-subtitle {
+	color: #7bb9ff;
+	font-size: 14px;
+	font-weight: 400;
+	text-height: 10px;
+}
+.portfolio-col-1 {
+	padding-left: 85px;
+}
+.portfolio-col-2 {
+	padding-right: 50px;
+}
+
+.portfolio-block h3{
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 16px;
+}
+.portfolio-text{
+	color: #8f8f8f;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+.portfolio-block a {
+	color: #072b6f;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+	margin-top: 26px;
+}
+
+/*Оформление подвала*/
+footer{
+	background-color: #3a7dfd;
+	color: #deedfe;
+	padding-bottom: 50px;
+}
+.footer-author{
+	padding-left: 50px;
+}
+.footer-author :first-child {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 60px;
+	margin-bottom: 7px;
+	padding: 0px;
+}
+.footer-author :last-child {
+	font-weight: 400;
+}
+.footer-social {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.footer-social h4 {
+	font-weight: 400;
+	margin-top: 60px;
+	margin-bottom: 21px;
+	margin-left: auto;
+}
+.footer-social a {
+	display: inline-block;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+.footer-write-me {
+	padding-right: 50px;
+
+}
+.footer-write-me h4 {
+	font-weight: 400;
+	margin-top: 60px;
+}
+.footer-write-me a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 12px 40px;
+	border-radius: 30px;
+	border: 1px solid #deedfe;
+	background-color: #3a7dfd;
+	font-weight: 400;
+	margin-top: 13px;
+	color: #deedfe;
+	margin-top: 13px;
+}
+.write-me-block a:hover {
+	background-color: #deedfe;
+	color: #3a7dfd;
+	transition: 0.2s;
+}
+.write-me-block {
+	text-align: right;
+}
+.anchor img {
+	margin-top: -58px;
+	margin-left: 240px;
+}
+
+@media (max-width: 1200px){
+	.header-pretitle {
+		margin-top: 60px;
+	}
+	.footer-social a{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+}
+@media (max-width: 992px){
+	.header-img {
+		display:none;
+	}
+	.portfolio-col-1, .portfolio-col-2{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.footer-author h4{
+		margin-top: 60px;
+	}
+	.footer-social a{
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	.footer-social img{
+		width:30px;
+	}
+	.footer-write-me {
+		padding-right: 15px;
+	}
+	.footer-author {
+		padding-left: 15px;
+	}
+	.footer-write-me a {
+
+		text-align: center;
+		padding: 6px 15px;
+		text-align: center;
+	}
+	
+}
+@media (max-width: 768px){
+
+	.header-pretitle{
+		margin-top: 30px;
+	}
+	.portfolio-col-1, .portfolio-col-2{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.portfolio-col-2 img{
+		margin-top: 40px;
+	}
+	.footer-author, .write-me-block{
+			text-align: center;
+	}
+	.footer-author{
+		padding: 0px;
+	}
+	.footer-author h4{
+		margin-top: 50px;
+	}
+	.footer-write-me {
+	padding: 0px;
+	}
+	.footer-social{
+		margin-bottom: 0px;
+
+	}
+	.footer-social h4{
+		font-size: 18px;
+		margin-top: 20px;
+	}
+	.footer-social a{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.write-me-block h4{
+		font-size: 18px;
+		margin-top: 40px;
+	}
+	.write-me-block button{
+		margin-bottom: 40px;
+		padding: 5px 20px;
+	}
+}	
